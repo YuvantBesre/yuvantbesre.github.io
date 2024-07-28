@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import CardBox from "@/components/core/CardBox";
 import Column from "@/components/core/Column";
+import Image from "next/image";
 
 const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
   return (
@@ -17,9 +18,17 @@ const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
 
           <p className="text-lg/6 font-semibold mt-4">{data.designation}</p>
 
-          <p className="text-[var(--textColorLight)] text-base/6 font-medium">
+          <div>
+            
+          <Image 
+            src={data.company} alt={""}   
+            width={100}
+            height={100}       
+          />
+          </div>
+          {/* <p className="text-[var(--textColorLight)] text-base/6 font-medium">
             {data.company}
-          </p>
+          </p> */}
         </Column>
 
         <div

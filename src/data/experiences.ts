@@ -2,8 +2,8 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Full Stack Developer",
-    company: "Merito",
+    designation: "Senior Software Engineer",
+    company: "https://www.medikabazaar.ae/New/Logo.png",
     startDate: "Feb 2023",
     endDate: "",
     isCurrentJob: true,
@@ -15,7 +15,7 @@ const experiences: IExperienceItem[] = [
   },
   {
     designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
+    company: "https://www.medikabazaar.ae/New/Logo.png",
     startDate: "May 2021",
     endDate: "July 2022",
     isCurrentJob: false,
@@ -27,7 +27,7 @@ const experiences: IExperienceItem[] = [
   },
   {
     designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
+    company: "https://www.medikabazaar.ae/New/Logo.png",
     startDate: "July 2021",
     endDate: "Nov 2021",
     isCurrentJob: false,

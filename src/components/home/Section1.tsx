@@ -13,6 +13,11 @@ import ResumeButton from "./components/ResumeButton";
 import socialLinks from "@/data/socialLinks";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
+  const getYearsPassed = (inputYear : number = 2020) => {
+    const currentYear = new Date().getFullYear();
+    const yearsPassed = currentYear - inputYear;
+    return yearsPassed;
+  }
   return (
     <ResponsiveBox
       classNames="bg-[var(--dialogColor)] min-h-[calc(100vh-5rem)] items-center justify-center relative"
@@ -27,20 +32,17 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               <p className="text-base/6 drop_in">Hi 👋 I&apos;m</p>
 
               <p className="text-4xl/normal md:text-5xl/normal font-bold text-[var(--primaryColor)] drop_in">
-                Nikhil Rajput
+                Yuvant Besre
               </p>
 
               <p className="text-sm/6 font-medium text-[var(--textColorLight)] drop_in">
-                Software Enginner & Full Stack Developer
+                Senior Software Engineer
               </p>
 
               <p className="text-base/normal mt-8 drop_in">
                 <Balancer>
-                  Welcome to my portfolio! I am a passionate full-stack
-                  developer with 1+ years of experience. I specialize in
-                  creating user-centric software, proficient in both front-end
-                  and back-end development across various platforms. I integrate
-                  cutting-edge technology seamlessly while prioritizing design.
+                  No, this description is not taken from ChatGPT. A Software Engineer looking to turn ideas into a
+                  digital life with scalable & perceptive mind. I have completed {getYearsPassed()}+ Years of journey into making Web Apps.
                 </Balancer>
               </p>
 
@@ -76,14 +78,14 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
           <Row classNames="w-[20rem] h-[20rem] lg:w-[25rem] lg:h-[25rem] pointer-events-none justify-self-center sm:justify-self-end items-center justify-center rounded-full bg-transparent border-2 border-[var(--primaryColor60)] aspect-sqaure overflow-hidden my-auto drop_out">
             <Row classNames="w-full h-auto items-center justify-center rounded-full bg-transparent border-[0.8rem] border-[var(--primaryColor30)] aspect-sqaure overflow-hidden pointer-events-none">
               <Image
-                src="/images/profile.webp"
+                src="/images/profile.png"
                 alt="profile"
                 width={400}
                 height={400}
                 sizes="100%"
                 priority
                 placeholder="blur"
-                blurDataURL="/images/profile.webp"
+                blurDataURL="/images/profile.png"
                 style={{
                   objectFit: "cover",
                   width: "100%",
