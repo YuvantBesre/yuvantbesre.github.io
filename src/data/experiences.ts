@@ -41,7 +41,7 @@ const experiences: IExperienceItem[] = [
     shortDescription:
       "Was responsible with the sales team of a product which has 120M User base, a US based brand named Verizon",
     description:
-      "Yes, before entering the IT industry I was a sales guy. TTEC helped me enter into the corporate industry and taught me valuable lessons of life. I was able to learn a lot from this journey. I was responsible with the sales team of a product which has 120M User base, a US based brand named Verizon. I also won the title of best Sales Associate (new joiners) for the current month in 2019.",
+      "Yes, before entering the IT industry I was a sales guy. TTEC helped me entering into the corporate industry and taught me valuable lessons of life. I was able to learn a lot from this journey. I was responsible with the sales team of a product which has 120M User base, a US based brand named Verizon. I also won the title of best Sales Associate (new joiners) for the current month in 2019.",
     link : 'https://www.ttec.com/'
   },
 ];
