@@ -78,7 +78,7 @@ const projects: IProjectItem[] = [
     title: "RED Real Estate",
     description:
       "Online Market place for your dream project, house, and plots",
-    icon: "/Experience/5.png",
+    icon: "/Experience/6.svg",
     repoType: RepoType.Private,
     projectType: ProjectType.Personal,
     githubUrl: "",
