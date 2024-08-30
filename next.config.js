@@ -8,8 +8,8 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
-  basePath: "/my-portfolio",
   images: {
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "**.githubusercontent.com" },
       { protocol: "https", hostname: "**.github.com" },
