@@ -53,7 +53,7 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
-          cache-dependency-path: "/home/runner/work/my-portfolio/package-lock.json"
+          cache-dependency-path: "/home/runner/work/my-portfolio/my-portfolio/package-lock.json"
       - run: npm ci
       - run: npm test
       - name: Setup Pages
