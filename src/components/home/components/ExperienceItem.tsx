@@ -5,6 +5,7 @@ import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import CardBox from "@/components/core/CardBox";
 import Column from "@/components/core/Column";
 import Image from "next/image";
+import Link from "next/link";
 
 const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
   return (
@@ -18,25 +19,28 @@ const ExperienceItem = ({ data }: { data: IExperienceItem }) => {
 
           <p className="text-lg/6 font-semibold mt-4">{data.designation}</p>
 
-          <div>
-            
-          <Image 
-            src={data.company} alt={""}   
-            width={100}
-            height={100}       
-          />
+          <div className="py-[10px]">
+            @
           </div>
-          {/* <p className="text-[var(--textColorLight)] text-base/6 font-medium">
-            {data.company}
-          </p> */}
+
+          <Link className="block" href={data.link}>
+            <div>
+              <Image
+                src={data.company} 
+                className="!h-[50px] object-contain"
+                alt={""}
+                width={250}
+                height={100}
+              />
+            </div>
+          </Link>
         </Column>
 
         <div
-          className={`flex flex-row relative gap-1 items-center justify-center px-2 py-0.5 border ${
-            data.isCurrentJob
+          className={`flex flex-row relative gap-1 items-center justify-center px-2 py-0.5 border ${data.isCurrentJob
               ? "border-[var(--primaryColor)] text-[var(--primaryColor)]"
               : "border-[var(--textColor)] text-[var(--textColor)]"
-          } rounded-[var(--borderRadius)]`}
+            } rounded-[var(--borderRadius)]`}
         >
           <p className="text-xs/6 font-medium uppercase">{data.startDate}</p>
 

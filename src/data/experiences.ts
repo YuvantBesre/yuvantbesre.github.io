@@ -1,41 +1,48 @@
 import { IExperienceItem } from "@/types";
 
+/*
+  In CodeNicely, I successfully managed and contributed to the development of four or more concurrent real-world projects, demonstrating exceptional multitasking abilities and a commitment to delivering high-quality software solutions. I played a pivotal role as a FullStack developer in building the Business Card Maker and Business Forum for Vahak, our highly funded client boasting over 10 lakh daily users and a robust network of 6 lakh verified transporters. Development of Krishify Business App’s entire frontend, contributing to its remarkable growth to 1 crore progressive farmers and 140K daily users
+ */
+
 const experiences: IExperienceItem[] = [
   {
     designation: "Senior Software Engineer",
-    company: "https://www.medikabazaar.ae/New/Logo.png",
-    startDate: "Feb 2023",
+    company: "/Experience/3.png",
+    startDate: "March 2022",
     endDate: "",
     isCurrentJob: true,
-    location: "Pune, India",
+    location: "Mumbai, India",
     shortDescription:
-      "I have a proven track record of success, having developed more than 5 web applications  that seamlessly integrate backend APIs.",
+    "I had the invaluable opportunity to make a significant impact by building products from scratch and enhancing more than three products.",
     description:
-      "As a Full Stack Developer, I have a proven track record of success, having developed more than 5 web applications that seamlessly integrate backend APIs using modern tech stacks and adhering to the highest standards of clean code practices. My commitment to efficiency is reflected in my work, where I have streamlined workflows across various projects, eliminating redundant data requirements and significantly improving overall efficiency. One of my standout achievements includes achieving an impressive 80% faster website loading time. I accomplished this by optimizing images, minimizing main-thread work, and implementing robust SEO strategies to enhance user experience and website performance. In addition to my development skills, I've also demonstrated my expertise in both backend and frontend development by resolving over 100 bugs. My thorough and comprehensive code reviews showcase my dedication to delivering high-quality solutions that not only meet but exceed expectations. As a full-stack developer, I am passionate about driving innovation and excellence in every project I undertake.",
+      "In Medikabazaar, I had the opportunity to build high end products from scratch. I built APIdrug.com, a platform that connects the bridge between Active Pharmaceuticals Ingredients' manufacturer and retailers. I am also currently leading Medikabazaar's Middle-East Marketplace contributing to continous revamps, new features, integrations and optimizations of the product impacting to 80% more orders within 6 months. Some remarkable work done by me was to reduce the database burden by 80%, increase frontend insights and score by 60%, Revamp both backend and frontend for higher performance and mitigate security issues by implementing necessary security measures. ",
+    link : 'https://www.medikabazaar.com/'
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "https://www.medikabazaar.ae/New/Logo.png",
-    startDate: "May 2021",
-    endDate: "July 2022",
+    designation: "SDE - 1",
+    company: "/Experience/2.webp",
+    startDate: "January 2021",
+    endDate: "February 2022",
     isCurrentJob: false,
-    location: "Remote",
+    location: "Raipur, India",
     shortDescription:
-      "I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter.",
+      "Successfully managed and contributed to the development of four or more concurrent real-world projects, demonstrating exceptional multitasking abilities and a commitment to delivering high-quality software solutions.",
+    link : 'https://codenicely.in/',
     description:
-      "As a Full Stack Development Intern, I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter, showcasing my expertise in the field of mobile development. I played a pivotal role in the development process by deploying RESTful APIs, enabling seamless integration between mobile applications and servers, thereby enhancing the overall user experience and functionality of these apps. Furthermore, I leveraged my skills to integrate Google AdMob into these applications, strategically monetizing them and effectively boosting revenue generation. My contributions as an intern reflect my dedication to staying current with modern tech stacks and best practices, ultimately delivering meaningful results to the projects I worked on.",
+      "In CodeNicely, I successfully managed and contributed to the development of four or more concurrent real-world projects, demonstrating exceptional multitasking abilities and a commitment to delivering high-quality software solutions. I played a pivotal role as a FullStack developer in building the Business Card Maker and Business Forum for Vahak, our highly funded client boasting over 10 lakh daily users and a robust network of 6 lakh verified transporters. Development of Krishify Business App’s entire frontend, contributing to its remarkable growth to 1 crore progressive farmers and 140K daily users.",
   },
   {
-    designation: "Web Development Intern",
-    company: "https://www.medikabazaar.ae/New/Logo.png",
-    startDate: "July 2021",
-    endDate: "Nov 2021",
+    designation: "Chat Sales Associate",
+    company: "/Experience/1.png",
+    startDate: "May 2019",
+    endDate: "May 2020",
     isCurrentJob: false,
-    location: "Remote",
+    location: "Ahmedabad, India",
     shortDescription:
-      "I had the privilege of spearheading the development of the company's website and made needful changes into look and feel.",
+      "Was responsible with the sales team of a product which has 120M User base, a US based brand named Verizon",
     description:
-      "During my tenure as a Web Development Intern, I had the privilege of spearheading the development of our company's website and various portals. My approach prioritized clean and reusable code, leveraging modern technology stacks to craft robust and user-friendly platforms. One of my key strengths during this internship was my ability to prioritize and efficiently problem-solve multiple tasks concurrently, often with minimal supervision. This adaptability and self-motivation allowed me to excel in a fast-paced development environment. Effective communication played a crucial role in my success as an intern. I actively engaged with senior team members and collaborated closely with colleagues to ensure precise task completion. This collaborative spirit ensured that our projects met and often exceeded the company's expectations. As a Web Development Intern, I embraced challenges, showcased my coding skills, and actively contributed to the company's digital presence and success. My experience reflects my commitment to delivering high-quality web solutions and my dedication to personal and professional growth in the field of web development.",
+      "Yes, before entering the IT industry I was a sales guy. TTEC helped me enter into the corporate industry and taught me valuable lessons of life. I was able to learn a lot from this journey. I was responsible with the sales team of a product which has 120M User base, a US based brand named Verizon. I also won the title of best Sales Associate (new joiners) for the current month in 2019.",
+    link : 'https://www.ttec.com/'
   },
 ];
 

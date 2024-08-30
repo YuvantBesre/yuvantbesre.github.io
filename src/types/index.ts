@@ -17,6 +17,7 @@ export interface IExperienceItem {
   isCurrentJob: boolean;
   location: string;
   shortDescription: string;
+  link:string;
   description: string;
 }
 

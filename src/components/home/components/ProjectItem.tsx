@@ -31,7 +31,7 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
           <Image
             src={project.icon}
             alt={`project-${project.title}`}
-            width={100}
+            width={300}
             height={100}
             sizes="100%"
             loading="lazy"

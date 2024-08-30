@@ -42,7 +42,7 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               <p className="text-base/normal mt-8 drop_in">
                 <Balancer>
                   No, this description is not taken from ChatGPT. A Software Engineer looking to turn ideas into a
-                  digital life with scalable & perceptive mind. I have completed {getYearsPassed()}+ Years of journey into making Web Apps.
+                  digital life with scalable & perceptive mind. I have completed {getYearsPassed()}+ years of journey into making production ready web apps and solutions and having {getYearsPassed() + 1}+ years of industry experience.
                 </Balancer>
               </p>
 
