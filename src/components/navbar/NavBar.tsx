@@ -99,14 +99,14 @@ const NavBar = () => {
             className="w-fit h-fit flex flex-row items-center justify-center"
           >
             <Image
-              src="/icon.png"
+              src="/Logo.png"
               alt="profile"
               width={80}
               height={80}
               sizes="100%"
               priority
               placeholder="blur"
-              blurDataURL="/icon.png"
+              blurDataURL="/Logo.png"
               className="w-10 lg:w-12 h-auto"
             />
           </Link>
