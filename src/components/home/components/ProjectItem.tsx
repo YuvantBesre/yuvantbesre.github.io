@@ -23,11 +23,10 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
 
   return (
     <CardBox
-      classNames="min-w-[calc(100%-2rem)] sm:min-w-[25rem] md:min-w-[28rem] aspect-[3/5] max-h-[30rem] p-4 gap-8 items-center justify-between bg-[var(--textColor10)] group slide_in cursor-pointer"
-      onClick={() => _handleNavigateToPage(project.id)}
+      classNames="min-w-[calc(100%-2rem)] sm:min-w-[25rem] md:min-w-[28rem] aspect-[3/5] max-h-[30rem] p-4 gap-8 items-center justify-between bg-[var(--textColor10)] group slide_in"
     >
       <Column classNames="w-full items-center justify-start">
-        <Row classNames="w-[2.5rem] md:w-[3rem] aspect-square items-center justify-center">
+        <Row classNames="items-center justify-center max-w-[200px] h-[60px]">
           <Image
             src={project.icon}
             alt={`project-${project.title}`}
@@ -37,11 +36,11 @@ const ProjectItem = ({ project }: { project: IProjectItem }) => {
             loading="lazy"
             placeholder="blur"
             blurDataURL={project.icon}
-            className="w-full h-full object-cover aspect-square"
+            className="w-full h-full object-contain"
           />
         </Row>
 
-        <p className="text-lg/6 font-semibold mt-4">{project.title}</p>
+        <p className="text-lg/6 font-semibold mt-4 text-center">{project.title}</p>
 
         <div
           className={`flex flex-row items-center justify-center rounded-full py-[0.05] px-[0.5rem] mt-4 capitalize text-center border ${
